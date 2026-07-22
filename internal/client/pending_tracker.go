@@ -10,7 +10,7 @@ import (
 
 const (
 	// BaseRTO is the base retransmission timeout.
-	BaseRTO = 20 * time.Millisecond
+	BaseRTO = 50 * time.Millisecond
 
 	// MaxRetries is the maximum number of retransmission attempts.
 	MaxRetries = 5

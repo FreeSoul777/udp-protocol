@@ -43,7 +43,7 @@ func TestServerStartStop(t *testing.T) {
 		errCh <- srv.Start()
 	}()
 
-	time.Sleep(200 * time.Millisecond)
+	time.Sleep(100 * time.Millisecond)
 
 	srv.cancel()
 

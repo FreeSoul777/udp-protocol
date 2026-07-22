@@ -36,7 +36,7 @@ func TestIntegrationSmoke(t *testing.T) {
 		}
 	}()
 
-	time.Sleep(500 * time.Millisecond)
+	time.Sleep(100 * time.Millisecond)
 
 	clientCmd := exec.Command("go", "run", "../../cmd/client",
 		"--server=127.0.0.1:"+port,
@@ -120,7 +120,7 @@ func TestLoad10kPackets(t *testing.T) {
 		}
 	}()
 
-	time.Sleep(500 * time.Millisecond)
+	time.Sleep(100 * time.Millisecond)
 
 	startTime := time.Now()
 
