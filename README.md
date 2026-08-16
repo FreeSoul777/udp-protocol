@@ -137,3 +137,7 @@ make docker-dev
 ├── Makefile
 └── README.md
 ```
+
+## License
+
+[MIT](LICENSE)
